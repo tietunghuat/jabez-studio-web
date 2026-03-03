@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "site": "jabez-cloud",
+    "public": ".output/public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}

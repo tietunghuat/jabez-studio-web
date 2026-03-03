@@ -10,23 +10,17 @@ export default defineNuxtConfig({
     "@nuxt/image",
   ],
 
+  devServer: {
+    port: 3088,
+  },
+
   i18n: {
     locales: [
-      {
-        code: "zh",
-        iso: "zh-TW",
-        name: "繁體中文",
-        file: "zh-TW.json",
-      },
-      {
-        code: "en",
-        iso: "en-US",
-        name: "English",
-        file: "en-US.json",
-      },
+      { code: "zh", iso: "zh-TW", name: "繁體中文", file: "zh-TW.json" },
+      { code: "en", iso: "en-US", name: "English", file: "en-US.json" },
     ],
-    lazy: true,
-    langDir: "locales",
+    lazy: false, // ← 關掉 lazy，直接 bundle
+    langDir: "locales/",
     defaultLocale: "zh",
     strategy: "prefix_except_default",
     detectBrowserLanguage: {
@@ -34,11 +28,6 @@ export default defineNuxtConfig({
       cookieKey: "i18n_redirected",
       redirectOn: "root",
     },
-    // seo: true,
-  },
-
-  devServer: {
-    port: 3088,
   },
 
   app: {
@@ -62,13 +51,18 @@ export default defineNuxtConfig({
   },
 
   css: ["~/assets/css/main.css"],
-  // runtimeConfig: {
-  //   public: {
-  //     siteUrl: process.env.SITE_URL || "https://jabezstudio.com",
-  //   },
-  // },
+
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.SITE_URL || "https://jabezstudio.com",
+    },
+  },
 
   nitro: {
-    preset: "node-server",
+    preset: "static",
+    prerender: {
+      routes: ["/", "/en"],
+      crawlLinks: true,
+    },
   },
 });
