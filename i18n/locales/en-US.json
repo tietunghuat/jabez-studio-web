@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "siteName": "Jabez Studio",
+    "homeTitle": "Jabez Studio — Full-Stack Engineer & System Architect & Founder",
+    "homeDescription": "A personal software studio focused on building human-centered digital products with elegant frontends, robust backends, and scalable cloud infrastructure.",
+    "ogTitle": "Jabez Studio — Full-Stack Engineering & Architecture",
+    "ogDescription": "Technology as a medium, humanity as the core. Building future-ready digital solutions."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "stack": "Stack",
+    "projects": "Projects",
+    "contact": "Contact",
+    "toggleDark": "Toggle dark mode",
+    "toggleLight": "Toggle light mode"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Jabez",
+    "tagline": "Full-Stack Engineer · System Architect · Founder",
+    "headline": "Technology as medium,\nhumanity as core.",
+    "subheadline": "Crafting digital products that balance engineering depth with human warmth — from system architecture to pixel-perfect interfaces.",
+    "cta_primary": "Explore My Work",
+    "cta_secondary": "Get in Touch",
+    "scroll": "Scroll down"
+  },
+  "about": {
+    "label": "About",
+    "title": "An engineer's mind,\na creator's heart.",
+    "body1": "I'm Jabez, a software engineer specializing in full-stack development and cloud architecture. Over the years, I've worked across diverse industries, witnessing how technology transforms business — and learning that truly great software is the kind where users don't notice the technology at all.",
+    "body2": "Jabez Studio is my commitment to every project: understand the problem, design the solution, deliver real value.",
+    "highlight1_value": "8+",
+    "highlight1_label": "Years Experience",
+    "highlight2_value": "15+",
+    "highlight2_label": "Projects Delivered",
+    "highlight3_value": "5+",
+    "highlight3_label": "Industries"
+  },
+  "experience": {
+    "label": "Industry Experience",
+    "title": "Engineering across\ndiverse domains.",
+    "subtitle": "Deep involvement in varied industries has given me a multidimensional perspective on problem-solving and system design."
+  },
+  "stack": {
+    "label": "Tech Stack",
+    "title": "Curated tools for\nexceptional systems.",
+    "subtitle": "From frontend interactivity to backend architecture, from database design to cloud deployment — I choose proven, future-ready technologies."
+  },
+  "projects": {
+    "label": "Featured Projects",
+    "title": "Turning ideas into\nreal products.",
+    "subtitle": "Each project is an exploration — finding the most elegant solution to a real-world problem.",
+    "view_project": "View Project",
+    "tech_used": "Technologies"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's build something\ngreat together.",
+    "subtitle": "Whether you have an idea still forming or a project needing a technical partner, I'd love to hear from you.",
+    "email_label": "Email",
+    "github_label": "GitHub",
+    "linkedin_label": "LinkedIn",
+    "availability": "Currently open for freelance",
+    "availability_note": "Accepting short-term consulting & long-term collaborations"
+  },
+  "footer": {
+    "tagline": "Crafted with ♥ in Taiwan",
+    "rights": "© 2024 Jabez Studio. All rights reserved."
+  }
+}

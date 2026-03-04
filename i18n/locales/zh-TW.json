@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "siteName": "Jabez Studio",
+    "homeTitle": "Jabez Studio — 全端工程師 · 系統架構師 · Founder",
+    "homeDescription": "專注於打造以人為本的數位產品，結合前端優雅、後端穩健與雲端擴展性的全端工程工作室。",
+    "ogTitle": "Jabez Studio — 全端工程 · 系統架構",
+    "ogDescription": "以技術為媒介，以人為核心，打造面向未來的數位解決方案。"
+  },
+  "nav": {
+    "about": "關於",
+    "experience": "產業經歷",
+    "stack": "技術棧",
+    "projects": "專案",
+    "contact": "聯絡",
+    "toggleDark": "切換深色模式",
+    "toggleLight": "切換淺色模式"
+  },
+  "hero": {
+    "greeting": "您好，我是",
+    "name": "Jabez",
+    "tagline": "全端工程師 · 系統架構師 · Founder",
+    "headline": "以技術為媒介，\n以人為核心。",
+    "subheadline": "打造兼顧工程深度與使用者溫度的數位產品——從架構設計到像素完美的使用者介面。",
+    "cta_primary": "探索我的作品",
+    "cta_secondary": "聯絡我",
+    "scroll": "向下捲動"
+  },
+  "about": {
+    "label": "關於我",
+    "title": "工程師的靈魂，\n創造者的心。",
+    "body1": "我是 Jabez，一位深耕全端開發與雲端架構的軟體工程師。多年來在不同產業間游走，見證技術如何轉化業務，也深刻體會到——真正好的軟體，是讓人感受不到技術存在的那種。",
+    "body2": "Jabez Studio 是我的個人工作室品牌，也是一種實踐理念：不只是撰寫程式碼，而是深入理解問題、設計可長可久的解法，並為每一個專案交付實際可衡量的價值。",
+    "highlight1_value": "4+",
+    "highlight1_label": "年工程經驗",
+    "highlight2_value": "23+",
+    "highlight2_label": "交付專案",
+    "highlight3_value": "6+",
+    "highlight3_label": "合作產業"
+  },
+  "experience": {
+    "label": "產業經歷",
+    "title": "跨越產業的\n工程實踐。",
+    "subtitle": "在不同領域的深度參與，讓我累積了多元的問題解決視角與系統設計經驗。"
+  },
+  "stack": {
+    "label": "技術棧",
+    "title": "精選工具，\n打造卓越系統。",
+    "subtitle": "從前端互動到後端架構，從資料庫設計到雲端部署，我選擇經過驗證且面向未來的技術。"
+  },
+  "projects": {
+    "label": "精選專案",
+    "title": "將構想轉化為\n真實產品。",
+    "subtitle": "每個專案都是一次探索——探索如何用最優雅的方式解決真實世界的問題。",
+    "view_project": "查看專案",
+    "tech_used": "使用技術"
+  },
+  "contact": {
+    "label": "聯絡我",
+    "title": "讓我們一起\n打造下一個作品。",
+    "subtitle": "無論您有一個尚在構思的想法，還是一個需要技術夥伴的專案，我都樂於傾聽。",
+    "email_label": "電子郵件",
+    "github_label": "GitHub",
+    "linkedin_label": "LinkedIn",
+    "availability": "目前開放自由接案",
+    "availability_note": "接受短期顧問與長期合作洽談"
+  },
+  "footer": {
+    "tagline": "Crafted with ♥ in Taiwan",
+    "rights": "© 2026 Jabez Studio. 版權所有。"
+  }
+}
