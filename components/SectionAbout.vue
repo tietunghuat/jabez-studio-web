@@ -1,6 +1,10 @@
 <script setup lang="ts">
+import dayjs from "dayjs";
+
 const { t } = useI18n();
 const { observeElement } = useScrollAnimation();
+
+const experienceYears = dayjs().diff(dayjs("2022-01-01"), "year");
 
 const labelEl = ref<HTMLElement | null>(null);
 const titleEl = ref<HTMLElement | null>(null);
@@ -50,10 +54,16 @@ onMounted(() => {
         <!-- Stats -->
         <div ref="statsEl" class="opacity-0-init grid grid-cols-3 gap-6">
           <div
-            v-for="stat in stats"
+            v-for="[key, stat] in Object.entries(stats)"
             :key="stat.key"
             class="group glass-card p-6 text-center card-hover cursor-default">
             <div
+              v-if="stat.valueKey === 'highlight1_value'"
+              class="font-serif text-4xl font-bold gradient-text mb-2 group-hover:scale-110 transition-transform duration-300">
+              {{ experienceYears }}+
+            </div>
+            <div
+              v-else
               class="font-serif text-4xl font-bold gradient-text mb-2 group-hover:scale-110 transition-transform duration-300">
               {{ t(`about.${stat.valueKey}`) }}
             </div>
@@ -75,10 +85,10 @@ onMounted(() => {
                 Jabez
               </div>
               <div class="text-sm text-neutral-500 dark:text-neutral-400">
-                Full-Stack Engineer · System Architect
+                Full-Stack Engineer · System Architect · Founder
               </div>
               <div class="flex gap-2 mt-3">
-                <span class="tag">Taiwan</span>
+                <span class="tag">Global</span>
                 <span class="tag">Remote Friendly</span>
               </div>
             </div>

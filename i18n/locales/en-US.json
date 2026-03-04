@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "Jabez Studio",
-    "homeTitle": "Jabez Studio — Full-Stack Engineer & System Architect",
+    "homeTitle": "Jabez Studio — Full-Stack Engineer & System Architect & Founder",
     "homeDescription": "A personal software studio focused on building human-centered digital products with elegant frontends, robust backends, and scalable cloud infrastructure.",
     "ogTitle": "Jabez Studio — Full-Stack Engineering & Architecture",
     "ogDescription": "Technology as a medium, humanity as the core. Building future-ready digital solutions."
@@ -18,7 +18,7 @@
   "hero": {
     "greeting": "Hello, I'm",
     "name": "Jabez",
-    "tagline": "Full-Stack Engineer · System Architect",
+    "tagline": "Full-Stack Engineer · System Architect · Founder",
     "headline": "Technology as medium,\nhumanity as core.",
     "subheadline": "Crafting digital products that balance engineering depth with human warmth — from system architecture to pixel-perfect interfaces.",
     "cta_primary": "Explore My Work",
@@ -29,7 +29,7 @@
     "label": "About",
     "title": "An engineer's mind,\na creator's heart.",
     "body1": "I'm Jabez, a software engineer specializing in full-stack development and cloud architecture. Over the years, I've worked across diverse industries, witnessing how technology transforms business — and learning that truly great software is the kind where users don't notice the technology at all.",
-    "body2": "Jabez Studio is my personal brand representing a commitment to every project: not just writing code, but understanding problems, designing solutions, and delivering real value.",
+    "body2": "Jabez Studio is my commitment to every project: understand the problem, design the solution, deliver real value.",
     "highlight1_value": "8+",
     "highlight1_label": "Years Experience",
     "highlight2_value": "15+",

@@ -40,7 +40,7 @@ const { t } = useI18n();
         <!-- Contact links -->
         <div class="grid sm:grid-cols-3 gap-6">
           <a
-            href="mailto:jabez@jabezstudio.com"
+            href="mailto:jabeztie@gmail.com"
             class="glass-card p-7 card-hover group text-center block">
             <div
               class="text-3xl mb-3 group-hover:scale-110 transition-transform duration-300 inline-block">
@@ -52,7 +52,7 @@ const { t } = useI18n();
             </p>
             <p
               class="font-medium text-neutral-800 dark:text-neutral-200 text-sm break-all">
-              jabez@jabezstudio.com
+              jabeztie@gmail.com
             </p>
           </a>
 

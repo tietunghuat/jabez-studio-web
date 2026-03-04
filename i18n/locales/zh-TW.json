@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "Jabez Studio",
-    "homeTitle": "Jabez Studio — 全端工程師 · 系統架構師",
+    "homeTitle": "Jabez Studio — 全端工程師 · 系統架構師 · Founder",
     "homeDescription": "專注於打造以人為本的數位產品，結合前端優雅、後端穩健與雲端擴展性的全端工程工作室。",
     "ogTitle": "Jabez Studio — 全端工程 · 系統架構",
     "ogDescription": "以技術為媒介，以人為核心，打造面向未來的數位解決方案。"
@@ -18,7 +18,7 @@
   "hero": {
     "greeting": "您好，我是",
     "name": "Jabez",
-    "tagline": "全端工程師 · 系統架構師",
+    "tagline": "全端工程師 · 系統架構師 · Founder",
     "headline": "以技術為媒介，\n以人為核心。",
     "subheadline": "打造兼顧工程深度與使用者溫度的數位產品——從架構設計到像素完美的使用者介面。",
     "cta_primary": "探索我的作品",
@@ -29,12 +29,12 @@
     "label": "關於我",
     "title": "工程師的靈魂，\n創造者的心。",
     "body1": "我是 Jabez，一位深耕全端開發與雲端架構的軟體工程師。多年來在不同產業間游走，見證技術如何轉化業務，也深刻體會到——真正好的軟體，是讓人感受不到技術存在的那種。",
-    "body2": "Jabez Studio 是我個人工作室的品牌，代表著我對每一個專案的承諾：不只是寫程式，而是理解問題、設計解法、交付價值。",
-    "highlight1_value": "8+",
+    "body2": "Jabez Studio 是我的個人工作室品牌，也是一種實踐理念：不只是撰寫程式碼，而是深入理解問題、設計可長可久的解法，並為每一個專案交付實際可衡量的價值。",
+    "highlight1_value": "4+",
     "highlight1_label": "年工程經驗",
-    "highlight2_value": "15+",
+    "highlight2_value": "23+",
     "highlight2_label": "交付專案",
-    "highlight3_value": "5+",
+    "highlight3_value": "6+",
     "highlight3_label": "合作產業"
   },
   "experience": {
@@ -66,6 +66,6 @@
   },
   "footer": {
     "tagline": "Crafted with ♥ in Taiwan",
-    "rights": "© 2024 Jabez Studio. 版權所有。"
+    "rights": "© 2026 Jabez Studio. 版權所有。"
   }
 }
