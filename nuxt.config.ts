@@ -60,6 +60,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       siteUrl: process.env.SITE_URL || "https://jabezstudio.com",
+      gaId: process.env.NUXT_PUBLIC_GA_ID,
     },
   },
 

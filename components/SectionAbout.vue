@@ -85,7 +85,7 @@ onMounted(() => {
                 Jabez
               </div>
               <div class="text-sm text-neutral-500 dark:text-neutral-400">
-                Full-Stack Engineer · System Architect · Founder
+                Software Engineer · System Builder
               </div>
               <div class="flex gap-2 mt-3">
                 <span class="tag">Global</span>
