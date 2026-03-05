@@ -57,20 +57,20 @@ const { t } = useI18n();
           </a>
 
           <a
-            href="https://github.com"
+            href="https://lin.ee/fgiY8xN"
             target="_blank"
             class="glass-card p-7 card-hover group text-center block">
             <div
-              class="text-3xl mb-3 group-hover:scale-110 transition-transform duration-300 inline-block">
-              🐙
+              class="mb-3 group-hover:scale-110 transition-transform duration-300 inline-block">
+              <img src="~/assets/images/LINE_APP_IOS.png" class="w-8" />
             </div>
             <p
               class="text-xs font-medium text-neutral-400 uppercase tracking-widest mb-1">
-              {{ t("contact.github_label") }}
+              {{ t("contact.line_label") }}
             </p>
             <p
               class="font-medium text-neutral-800 dark:text-neutral-200 text-sm">
-              @jabez-studio
+              LINE 官方帳號
             </p>
           </a>
 

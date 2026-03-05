@@ -59,13 +59,13 @@
     "title": "讓我們一起\n打造下一個作品。",
     "subtitle": "無論您有一個尚在構思的想法，還是一個需要技術夥伴的專案，我都樂於傾聽。",
     "email_label": "電子郵件",
-    "github_label": "GitHub",
+    "line_label": "LINE",
     "linkedin_label": "LinkedIn",
     "availability": "目前開放自由接案",
     "availability_note": "接受短期顧問與長期合作洽談"
   },
   "footer": {
-    "tagline": "Crafted with ♥ in Taiwan",
+    "tagline": "Crafted by Jabez Studio — Building future-ready digital solutions.",
     "rights": "© 2026 Jabez Studio. 版權所有。"
   }
 }

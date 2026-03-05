@@ -59,13 +59,13 @@
     "title": "Let's build something\ngreat together.",
     "subtitle": "Whether you have an idea still forming or a project needing a technical partner, I'd love to hear from you.",
     "email_label": "Email",
-    "github_label": "GitHub",
+    "line_label": "LINE",
     "linkedin_label": "LinkedIn",
     "availability": "Currently open for freelance",
     "availability_note": "Accepting short-term consulting & long-term collaborations"
   },
   "footer": {
-    "tagline": "Crafted with ♥ in Taiwan",
+    "tagline": "Crafted by Jabez Studio — Building future-ready digital solutions.",
     "rights": "© 2024 Jabez Studio. All rights reserved."
   }
 }

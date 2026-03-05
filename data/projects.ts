@@ -14,59 +14,120 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "finpay",
-    titleZh: "FinPay 支付閘道",
-    titleEn: "FinPay Gateway",
+    id: "medical-treatment",
+    titleZh: "智慧醫療內部診斷系統",
+    titleEn: "Zhixin Physical Therapy Internal System",
     descriptionZh:
-      "為中型電商設計的高可用支付閘道系統，支援多種支付方式，日均交易量超過 10 萬筆。採用微服務架構，99.99% 上線率。",
+      "專為物理治療診所與中型醫療機構打造的內部診斷系統，支援解剖圖標記、電子簽章、權限控管、病例單管理與操作紀錄追蹤。提升內部作業效率，確保資料安全與可追溯性。",
     descriptionEn:
-      "A high-availability payment gateway for mid-scale e-commerce. Supports multiple payment methods with 100K+ daily transactions. Microservice architecture with 99.99% uptime.",
-    image: "/images/projects/finpay.jpg",
-    tags: ["NestJS", "PostgreSQL", "Redis", "AWS", "Docker", "Stripe API"],
-    link: "https://example.com",
+      "An internal diagnostic system for physical therapy clinics and mid-scale healthcare institutions. Features anatomy marking, e-signatures, staff access control, treatment record management, and operation logs. Improves workflow efficiency while ensuring data security and traceability.",
+    image: "/images/projects/zhixin-pt.jpg",
+    tags: [
+      "NestJS",
+      "PostgreSQL",
+      "Redis",
+      "AWS",
+      "VueJS",
+      "Konva && Canvas JS",
+      "Firebase Storage",
+    ],
+    link: "https://drive.google.com/file/d/1P7IVCxQMJ4grtUMoDEPhVqU-q6R8G4Ob/view?usp=sharing",
+    featured: true,
+    year: "2026",
+  },
+  {
+    id: "payment-integration",
+    titleZh: "線上訂單支付系統",
+    titleEn: "Online Order Integration",
+    descriptionZh:
+      "使用 LINE Login 進行身份驗證，串接第三方廠商 API 取得訂單詳細資訊，客戶可透過系統前往 LINE Pay 或綠界完成付款，支付成功後自動回傳更新訂單狀態。",
+    descriptionEn:
+      "User authentication via LINE Login with third-party API integration for order details. Customers can pay through LINE Pay or ECPay, and successful payments automatically update the order status in the external system.",
+    image: "/images/projects/linepay-integration.jpg",
+    tags: ["Vue 3", "Line Login", "Line Pay", "ECPay", "API Integration"],
+    link: "",
+    github: "", //github url
+    featured: true,
+    year: "2023",
+  },
+  {
+    id: "weather-analytics",
+    titleZh: "即時天氣與銷量預測系統",
+    titleEn: "Real-Time Weather & Sales Forecast",
+    descriptionZh:
+      "串接台灣即時氣象資料，將天氣功能整合至不同系統中，並透過未來氣象預測分析產品銷量與需求趨勢。",
+    descriptionEn:
+      "Integrates Taiwan's real-time weather data into multiple systems, using weather forecasts to analyze and predict product sales and demand trends.",
+    image: "/images/projects/weather-analytics.jpg",
+    tags: [
+      "Nuxt 3",
+      "API Integration",
+      "Weather Forecasting",
+      "Data Analytics",
+      "Vue 3",
+    ],
+    link: "",
+    github: "", //github url
+    featured: true,
+    year: "2023",
+  },
+  {
+    id: "multi-client-landing",
+    titleZh: "多客戶宣傳與管理頁面",
+    titleEn: "Multi-Client Landing & Dashboard",
+    descriptionZh:
+      "整合多個不同管理系統的單頁式宣傳與形象頁面，快速呈現客戶產品資訊，涵蓋智慧醫療、設備、雲端宮廟、民宿及當地文化節等案例。",
+    descriptionEn:
+      "One-page landing and dashboard pages integrating multiple management systems to quickly showcase client products and services, including smart healthcare, devices, cloud temples, B&Bs, and local cultural festivals.",
+    image: "/images/projects/multi-client-landing.jpg",
+    tags: ["Vue 3", "Nuxt 3", "Tailwind", "Client Dashboard", "Landing Pages"],
+    link: "https://drive.google.com/file/d/1qYEGUky7H3LdDTImHoJYrtAE8fKjM4h5/view?usp=sharing",
+    github: "", //github url
+    featured: true,
+    year: "2023",
+  },
+  {
+    id: "ai-integration",
+    titleZh: "AI 圖文辨識系統",
+    titleEn: "AI Image & Text Recognition",
+    descriptionZh:
+      "導入 AI 圖文辨識，使用者上傳照片或名片，系統自動分析內容並歸類保存，便於日後快速找到相關產業或客戶資訊。",
+    descriptionEn:
+      "Implements AI-based image and text recognition. Uploaded photos or business cards are analyzed and categorized automatically, enabling easy retrieval of related industry or client information.",
+    image: "/images/projects/ai-image-recognition.jpg",
+    tags: [
+      "AI",
+      "OCR",
+      "Image Recognition",
+      "Business Intelligence",
+      "Vue 3",
+      "Database Integration",
+    ],
+    link: "", //prod url
+    github: "", //github url
+    featured: true,
+    year: "2023",
+  },
+  {
+    id: "line-multi-integration",
+    titleZh: "LINE 多元服務整合平台",
+    titleEn: "LINE Multi-Service Integration",
+    descriptionZh:
+      "整合多個管理系統與 LINE 第三方服務，包括 LINE Login、LINE Pay、LINE Flex Messaging API 及 LINE Beacon，用於快速系統操作及行銷自動化。",
+    descriptionEn:
+      "Integrates multiple management systems with LINE third-party services, including LINE Login, LINE Pay, LINE Flex Messaging API, and LINE Beacon for efficient system operations and marketing automation.",
+    image: "/images/projects/line-multi-integration.jpg",
+    tags: [
+      "Line Login",
+      "Line Pay",
+      "Line Messaging API",
+      "Line Beacon",
+      "Vue 3",
+      "Nuxt 3",
+    ],
+    link: "", //prod url
+    github: "", //github url
     featured: true,
     year: "2024",
-  },
-  {
-    id: "cloudops",
-    titleZh: "CloudOps 監控平台",
-    titleEn: "CloudOps Dashboard",
-    descriptionZh:
-      "多租戶 SaaS 監控儀表板，整合 AWS CloudWatch、Prometheus 與自定義指標，提供即時告警與歷史趨勢分析。",
-    descriptionEn:
-      "Multi-tenant SaaS monitoring dashboard integrating AWS CloudWatch, Prometheus, and custom metrics with real-time alerts and historical trend analysis.",
-    image: "/images/projects/cloudops.jpg",
-    tags: ["Vue 3", "Nuxt 3", "Go", "Prometheus", "AWS", "Tailwind"],
-    link: "https://example.com",
-    github: "https://github.com",
-    featured: true,
-    year: "2023",
-  },
-  {
-    id: "medsync",
-    titleZh: "MedSync 醫療資訊系統",
-    titleEn: "MedSync Healthcare Platform",
-    descriptionZh:
-      "符合 HIPAA 規範的診所管理系統，包含病患排程、電子病歷、影像存取與保險申報模組。",
-    descriptionEn:
-      "HIPAA-compliant clinic management system with patient scheduling, electronic health records, imaging access, and insurance claim modules.",
-    image: "/images/projects/medsync.jpg",
-    tags: ["React", "Node.js", "FHIR", "PostgreSQL", "AWS", "HL7"],
-    featured: true,
-    year: "2023",
-  },
-  {
-    id: "logistrack",
-    titleZh: "LogisTrack 物流追蹤",
-    titleEn: "LogisTrack Logistics",
-    descriptionZh:
-      "即時貨運追蹤平台，整合 IoT 感測器資料，提供路線優化建議與倉儲庫存管理。",
-    descriptionEn:
-      "Real-time freight tracking platform integrating IoT sensor data with route optimization recommendations and warehouse inventory management.",
-    image: "/images/projects/logistrack.jpg",
-    tags: ["Vue 3", "Python", "FastAPI", "MongoDB", "MQTT", "Mapbox"],
-    github: "https://github.com",
-    featured: false,
-    year: "2022",
   },
 ];

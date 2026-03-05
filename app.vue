@@ -11,6 +11,17 @@ onMounted(() => initTheme());
 useHead({
   htmlAttrs: { lang: locale.value === "zh" ? "zh-TW" : "en" },
   meta: [{ name: "theme-color", content: "#dc7d1e" }],
+  script: [
+    {
+      innerHTML: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-74FK093SMG');
+        `,
+      type: "text/javascript",
+    },
+  ],
 });
 </script>
 

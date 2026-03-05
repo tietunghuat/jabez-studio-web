@@ -12,7 +12,7 @@ const otherProjects = computed(() =>
 );
 
 const icons: Record<string, string> = {
-  finpay: "💳",
+  ZhixinPTInternalSystem: "💳",
   cloudops: "📊",
   medsync: "🏥",
   logistrack: "🚚",
@@ -21,6 +21,30 @@ function projectIcon(id: string) {
   return icons[id] || "🔨";
 }
 
+function onDistinguishIcon(param: string) {
+  switch (param) {
+    case "medical-treatment":
+      return "🏥";
+    case "cloud-operations":
+      return "☁️";
+    case "payment-integration":
+      return "💳";
+    case "promote-page":
+      return "📊";
+    case "weather-analytics":
+      return "⛅";
+    case "multi-client-landing":
+      return "🌐";
+    case "internal-system":
+      return "🛠️";
+    case "line-multi-integration":
+      return "✅";
+    case "ai-integration":
+      return "🤖";
+    default:
+      return "🔨";
+  }
+}
 onMounted(() => {
   if (featuredEl.value) observeElement(featuredEl.value);
   cardEls.value.forEach((el, i) => {
@@ -61,11 +85,7 @@ onMounted(() => {
             <div class="text-8xl opacity-30">🔨</div>
             <div class="absolute inset-0 flex items-center justify-center">
               <span class="text-5xl">{{
-                featuredProject.id === "finpay"
-                  ? "💳"
-                  : featuredProject.id === "cloudops"
-                    ? "📊"
-                    : "🏥"
+                onDistinguishIcon(featuredProject.id)
               }}</span>
             </div>
             <span
@@ -135,7 +155,7 @@ onMounted(() => {
           :ref="(el) => (cardEls[i] = el as HTMLElement)"
           class="opacity-0-init glass-card p-7 card-hover group">
           <div class="flex items-start justify-between mb-4">
-            <div class="text-3xl">{{ projectIcon(project.id) }}</div>
+            <div class="text-3xl">{{ onDistinguishIcon(project.id) }}</div>
             <span class="tag">{{ project.year }}</span>
           </div>
           <h3 class="font-serif text-xl font-semibold mb-3">

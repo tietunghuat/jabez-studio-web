@@ -19,8 +19,7 @@ export const techStack: TechCategory[] = [
     nameEn: "Frontend",
     icon: "🎨",
     items: [
-      { name: "Vue 3 / Nuxt 3", icon: "💚", level: "expert" },
-      { name: "React / Next.js", icon: "⚛️", level: "proficient" },
+      { name: "Vue 3 / Nuxt 3", icon: "✅", level: "expert" },
       { name: "TypeScript", icon: "🔷", level: "expert" },
       { name: "Tailwind CSS", icon: "🎯", level: "expert" },
       { name: "Vite", icon: "⚡", level: "expert" },
@@ -32,11 +31,9 @@ export const techStack: TechCategory[] = [
     nameEn: "Backend",
     icon: "⚙️",
     items: [
-      { name: "Node.js / Express", icon: "🟢", level: "expert" },
       { name: "NestJS", icon: "🔴", level: "expert" },
-      { name: "Go", icon: "🐹", level: "proficient" },
-      { name: "Python / FastAPI", icon: "🐍", level: "proficient" },
-      { name: "GraphQL", icon: "🔗", level: "proficient" },
+      { name: "Node.js / Express", icon: "🟢", level: "expert" },
+      { name: "Python / Flask", icon: "🐍", level: "proficient" },
     ],
   },
   {
@@ -45,11 +42,10 @@ export const techStack: TechCategory[] = [
     nameEn: "Cloud & DevOps",
     icon: "☁️",
     items: [
-      { name: "AWS (EC2, RDS, S3, Lambda)", icon: "🟠", level: "expert" },
-      { name: "Docker / Kubernetes", icon: "🐳", level: "expert" },
-      { name: "Terraform", icon: "🏗️", level: "proficient" },
+      { name: "AWS (EC2, RDS, S3)", icon: "🟠", level: "proficient" },
+      { name: "Docker / Kubernetes", icon: "🐳", level: "proficient" },
       { name: "GitHub Actions / CI/CD", icon: "🔄", level: "expert" },
-      { name: "Nginx", icon: "🌐", level: "expert" },
+      { name: "Nginx、網域設定", icon: "🌐", level: "expert" },
     ],
   },
   {
@@ -60,9 +56,9 @@ export const techStack: TechCategory[] = [
     items: [
       { name: "PostgreSQL", icon: "🐘", level: "expert" },
       { name: "MySQL", icon: "🐬", level: "expert" },
-      { name: "Redis", icon: "🔴", level: "expert" },
-      { name: "MongoDB", icon: "🍃", level: "proficient" },
-      { name: "Elasticsearch", icon: "🔍", level: "proficient" },
+      { name: "Redis", icon: "🔴", level: "proficient" },
+      { name: "Firebase", icon: "🍃", level: "expert" },
+      // { name: "Elasticsearch", icon: "🔍", level: "proficient" },
     ],
   },
 ];
