@@ -1,9 +1,9 @@
 {
   "meta": {
     "siteName": "Jabez Studio",
-    "homeTitle": "Jabez Studio — 全端工程師 · 系統架構師 · Founder",
+    "homeTitle": "Jabez Studio — 軟體工程師 · 系統建構",
     "homeDescription": "專注於打造以人為本的數位產品，結合前端優雅、後端穩健與雲端擴展性的全端工程工作室。",
-    "ogTitle": "Jabez Studio — 全端工程 · 系統架構",
+    "ogTitle": "Jabez Studio — 軟體工程 · 系統建構",
     "ogDescription": "以技術為媒介，以人為核心，打造面向未來的數位解決方案。"
   },
   "nav": {
@@ -18,7 +18,7 @@
   "hero": {
     "greeting": "您好，我是",
     "name": "Jabez",
-    "tagline": "全端工程師 · 系統架構師 · Founder",
+    "tagline": "軟體工程師 · 系統建構",
     "headline": "以技術為媒介，\n以人為核心。",
     "subheadline": "打造兼顧工程深度與使用者溫度的數位產品——從架構設計到像素完美的使用者介面。",
     "cta_primary": "探索我的作品",
