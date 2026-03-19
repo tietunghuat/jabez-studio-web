@@ -32,9 +32,9 @@
     "body2": "Jabez Studio is my commitment to every project: understand the problem, design the solution, deliver real value.",
     "highlight1_value": "8+",
     "highlight1_label": "Years Experience",
-    "highlight2_value": "15+",
+    "highlight2_value": "23+",
     "highlight2_label": "Projects Delivered",
-    "highlight3_value": "5+",
+    "highlight3_value": "6+",
     "highlight3_label": "Industries"
   },
   "experience": {
@@ -53,6 +53,11 @@
     "subtitle": "Each project is an exploration — finding the most elegant solution to a real-world problem.",
     "view_project": "View Project",
     "tech_used": "Technologies"
+  },
+  "clients": {
+    "label": "Clients & Partners",
+    "title": "Built together,\ngrown together.",
+    "subtitle": "Grateful to every brand and team that trusted me to turn ideas into real impact."
   },
   "contact": {
     "label": "Contact",

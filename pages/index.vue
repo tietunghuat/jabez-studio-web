@@ -5,11 +5,14 @@
     <SectionExperience />
     <SectionStack />
     <SectionProjects />
+    <SectionClients />
     <SectionContact />
   </main>
 </template>
 
 <script setup lang="ts">
+import SectionClients from "~/components/SectionClients.vue";
+
 const { t } = useI18n();
 const localePath = useLocalePath();
 const config = useRuntimeConfig();

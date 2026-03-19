@@ -54,6 +54,11 @@
     "view_project": "查看專案",
     "tech_used": "使用技術"
   },
+  "clients": {
+    "label": "合作單位",
+    "title": "共同打造，\n彼此成就。",
+    "subtitle": "感謝每一個信任我的品牌與團隊，讓技術得以創造真實的影響力。"
+  },
   "contact": {
     "label": "聯絡我",
     "title": "讓我們一起\n打造下一個作品。",
