@@ -13,6 +13,7 @@ const navItems = [
   { key: "experience" },
   { key: "stack" },
   { key: "projects" },
+  { key: "clients" },
   { key: "contact" },
 ];
 

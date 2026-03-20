@@ -11,6 +11,7 @@
     "experience": "Experience",
     "stack": "Stack",
     "projects": "Projects",
+    "clients": "Clients",
     "contact": "Contact",
     "toggleDark": "Toggle dark mode",
     "toggleLight": "Toggle light mode"
@@ -30,7 +31,7 @@
     "title": "An engineer's mind,\na creator's heart.",
     "body1": "I'm Jabez, a software engineer specializing in full-stack development and cloud architecture. Over the years, I've worked across diverse industries, witnessing how technology transforms business — and learning that truly great software is the kind where users don't notice the technology at all.",
     "body2": "Jabez Studio is my commitment to every project: understand the problem, design the solution, deliver real value.",
-    "highlight1_value": "8+",
+    "highlight1_value": "4+",
     "highlight1_label": "Years Experience",
     "highlight2_value": "23+",
     "highlight2_label": "Projects Delivered",
