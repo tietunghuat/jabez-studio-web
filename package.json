@@ -6,7 +6,6 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "deploy": "firebase deploy --only hosting:jabez-cloud",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
