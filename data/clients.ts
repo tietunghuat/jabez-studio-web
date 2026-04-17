@@ -38,9 +38,9 @@ export const clients: Client[] = [
   },
   {
     id: "c04",
-    name: "待合作品牌",
-    logo: "",
-    industry: "E-Commerce",
+    name: "沛淨科技有限公司",
+    logo: "/images/puretronic_logo.png",
+    industry: "Precision Technology ",
     dur: "8.0s",
     delay: "-0.6s",
     lift: "-9px",
@@ -53,6 +53,15 @@ export const clients: Client[] = [
     dur: "6.8s",
     delay: "-3.5s",
     lift: "-11px",
+  },
+  {
+    id: "c06",
+    name: "待合作品牌",
+    logo: "",
+    industry: "",
+    dur: "5s",
+    delay: "-2.5s",
+    lift: "-10px",
   },
   // 繼續新增...
 ];
